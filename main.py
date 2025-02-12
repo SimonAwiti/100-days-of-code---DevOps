@@ -1,9 +1,9 @@
-# calculating the area of a circle 
+# calculating the circumfrance of a circle 
 
 import math
 
-r = 7
+d = 7
 
-area = math.pi * math.pow(r, 2)
+cir = math.pi * d
 
-print (area)
+print (int(cir))

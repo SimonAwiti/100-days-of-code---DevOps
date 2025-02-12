@@ -1,24 +1,7 @@
-#vTypecasting: converting to str() float() int() bool()
+#input 
+name = input("What is your name? : ")
+age = int(input(f"Hi {name}, how old are you? : ")) #typecast the input into an int 
 
-age = 29
-name = "Simon Awiti"
-is_student = False 
-gpa = 4.5
+age = age + 1
 
-if is_student:
-    print (f"my name is {name} and I'm {age} years old and Im a student")
-else:
-    print (f"my name is {name} and I'm {age} years old and Im Not a student")
-    
-    
-print (type(age))
-
-gpa = int(gpa)
-
-print (gpa)
-
-#typecasting a string into a bool 
-
-name = bool(name)
-
-print (name)
+print(f"Hello {name}, HAPPY BIRTHDAY! You are {age} years old")

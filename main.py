@@ -1,9 +1,12 @@
-# calculating the circumfrance of a circle 
+# if statements 
 
-import math
+age = int(input("Enter your age: "))
 
-d = 7
+if age >= 50:
+    print("You are too old for this man!")
+elif age == 30:
+    print("Thats the parfect age")
+else:
+    print("You are not 30 yet")
 
-cir = math.pi * d
 
-print (int(cir))

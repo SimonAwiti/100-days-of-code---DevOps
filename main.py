@@ -1,10 +1,6 @@
-# if statements 
+#check if a number is even or odd
 
-#conditional expression
+num = int(input("Enter a number: "))
 
-age = int(input("Enter your age: "))
-
-print("too old" if age > 50 else "still viable")
-
-
+print ("The number is even" if num%2 == 0 else "The number is odd")
 

@@ -1,6 +1,14 @@
-#check if a number is even or odd
+#Indexing [start:end:step]
+credit_no = input("Enter your credit card no: ")
 
-num = int(input("Enter a number: "))
+#Return the last 4 digs
+no = credit_no[15:]
 
-print ("The number is even" if num%2 == 0 else "The number is odd")
+#Return first 4 digits
+no2 = credit_no[0:4]
+
+
+print(f"Your credit card no is {no2}-xxxx-xxxx-{no}")
+
+
 

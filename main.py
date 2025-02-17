@@ -1,14 +1,10 @@
-#Indexing [start:end:step]
-credit_no = input("Enter your credit card no: ")
+#While loops: executes code provided that the condition remains true
 
-#Return the last 4 digs
-no = credit_no[15:]
+name = input("Enter your name :")
 
-#Return first 4 digits
-no2 = credit_no[0:4]
+while name == "":
+    print ("You did not enter your name")
+    name = input("Enter your name :")
 
-
-print(f"Your credit card no is {no2}-xxxx-xxxx-{no}")
-
-
-
+print(f"Hello {name}!")
+    

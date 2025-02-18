@@ -1,10 +1,6 @@
-#While loops: executes code provided that the condition remains true
+#For loops
 
-name = input("Enter your name :")
+books = ["book1", "book2", "book3", "book4", "book5"]
 
-while name == "":
-    print ("You did not enter your name")
-    name = input("Enter your name :")
-
-print(f"Hello {name}!")
-    
+for book in books:
+    print (book)

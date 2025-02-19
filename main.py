@@ -1,6 +1,9 @@
-#For loops
+#nested loops
 
-books = ["book1", "book2", "book3", "book4", "book5"]
+rows = 5
+columns = 5
 
-for book in books:
-    print (book)
+for i in range(rows):
+    for y in range(columns):
+        print("*", end=" ")
+    print()

@@ -1,10 +1,10 @@
 #collections used to sto several entries into a single variable
 
-fruits = ["banana", "apple", "pineaple"]
+fruits = ["banana", "apple", "pineable"]
 fruits.append("avocado")
 
 for fruit in fruits:
     
-    print (fruit)
+    print (fruits[3])
    
 

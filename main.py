@@ -1,9 +1,10 @@
-#nested loops
+#collections used to sto several entries into a single variable
 
-rows = 5
-columns = 5
+fruits = ["banana", "apple", "pineaple"]
+fruits.append("avocado")
 
-for i in range(rows):
-    for y in range(columns):
-        print("*", end=" ")
-    print()
+for fruit in fruits:
+    
+    print (fruit)
+   
+
